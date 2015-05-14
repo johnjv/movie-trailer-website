@@ -100,9 +100,10 @@ the_girl_who_leapt_through_time = media.Movie("""The Girl Who Leapt Through
                                                "SX640_SY720_.jpg"),
                                               "https://youtu.be/U_ULXRMvU7k")
 
-
+# create a list of all defined movies
 movies = [wreck_it_ralph, mind_game, waking_life, the_wind_rises,
           tekkonkinkreet, the_tale_of_princess_kaguya,
           the_girl_who_leapt_through_time]
 
+# pass movie list to fresh_tomatoes.py to render as a webpage
 fresh_tomatoes.open_movies_page(movies)
